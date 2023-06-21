@@ -2450,7 +2450,7 @@
               }
             ],
             "dataType": "string",
-            "expression": "IF(Orders[Profit]=0,\"Zero Profit\",IF(Orders[Profit]>0,\"Profit hai\",\"Loss hai\"))",
+            "expression": "IF(Orders[Profit]=0,\"Zero Profit\",IF(Orders[Profit]>0,\"Profit\",\"Loss\"))",
             "isDataTypeInferred": true,
             "lineageTag": "05d34a0f-39c5-4877-b91b-954c217c9100",
             "summarizeBy": "none",
